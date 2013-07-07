@@ -1,7 +1,28 @@
 " This is Gary Bernhardt's .vimrc file
 " vim:set ts=2 sts=2 sw=2 expandtab:
 
-call pathogen#incubate()
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" VUNDLE CONFIGURATION
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+" My Bundles
+Bundle 'Command-T'
+Bundle 'vim-makegreen'
+Bundle 'vim-fugitive'
+Bundle 'L9'
+Bundle 'vim-fuzzyfinder'
+Bundle 'vim-colors-solarized'
+Bundle 'vim-ruby.git'
+Bundle 'vim-commentary'
+Bundle 'vim-eunuch'
+Bundle 'vim-matchit'
+Bundle 'vim-coffee-script'
+Bundle 'ack.vim'
+Bundle 'vim-cucumber'
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
