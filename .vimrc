@@ -9,19 +9,19 @@ call vundle#rc()
 
 Bundle 'gmarik/vundle'
 " My Bundles
-Bundle 'Command-T'
-Bundle 'vim-makegreen'
-Bundle 'vim-fugitive'
-Bundle 'L9'
-Bundle 'vim-fuzzyfinder'
-Bundle 'vim-colors-solarized'
-Bundle 'vim-ruby.git'
-Bundle 'vim-commentary'
-Bundle 'vim-eunuch'
-Bundle 'vim-matchit'
-Bundle 'vim-coffee-script'
-Bundle 'ack.vim'
-Bundle 'vim-cucumber'
+Bundle 'https://github.com/wincent/Command-T.git'
+Bundle 'https://github.com/reinh/vim-makegreen.git'
+Bundle 'https://github.com/tpope/vim-fugitive.git'
+Bundle 'https://github.com/vim-scripts/L9'
+Bundle 'https://github.com/clones/vim-fuzzyfinder'
+Bundle 'https://github.com/altercation/vim-colors-solarized'
+Bundle 'https://github.com/vim-ruby/vim-ruby.git'
+Bundle 'https://github.com/tpope/vim-commentary.git'
+Bundle 'https://github.com/tpope/vim-eunuch.git'
+Bundle 'https://github.com/tsaleh/vim-matchit.git'
+Bundle 'https://github.com/kchmck/vim-coffee-script.git'
+Bundle 'https://github.com/mileszs/ack.vim.git'
+Bundle 'https://github.com/tpope/vim-cucumber.git'
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " BASIC EDITING CONFIGURATION
